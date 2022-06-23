@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Welcome | Side </title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>💖 Salut!</h1>
+    <p>Welcome to your Electron application.</p>
+    <button class="welcome-ok">
+      Compris
+    </button>
+    when the button ok-button is clicked, open editor.html file
+    <script>
+      document.querySelector('.welcome-ok').addEventListener('click', () => {
+        // load editor.html file
+        window.location.href = 'editor.html';
+      });
+
+    </script>
+
+  </body>
+</html>
